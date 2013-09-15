@@ -1,5 +1,5 @@
 <?php
-    class mysqli_connection {
+    class db_connection {
         //Define the starter variable members (public) for the later connection classes' __construct and methods
         public $db_name;
         public $db_host;
@@ -83,4 +83,6 @@
             }
         }
     }
+
+    echo "<h1>No Errors!</h1>";
 ?>
