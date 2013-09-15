@@ -39,7 +39,4 @@
         }
 
     }
-
-    echo "<h1>No Errors Mate!</h1>";
-
 ?>
