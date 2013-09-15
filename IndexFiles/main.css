@@ -1,1 +1,71 @@
-/*The main Styles for the index PHP page*/
+/*Main Index Styling Here*/
+
+body {
+    background-image: url("http://www.judepullen.com/designmodelling/files/2012/09/Copy-of-graph-paper-background.gif");
+    background-repeat: repeat;
+    margin: 0px;
+    background-attachment: fixed
+}
+
+/*main Wrapper Styling*/
+
+div.ContentWrapper {
+    width: 900px;
+    height: 100%;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+    margin: 0px auto 0px auto;
+    background-color: #fff;
+    padding: 25px 0px 25px 0px;
+}
+
+/*Header and Nav Styling*/
+
+header .mainHeader {
+    color: #ff6a00;
+    text-shadow: 0px 0px 5px #CCC;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header nav {
+    background-color: #CCC;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    line-height: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+    color: #F00;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+    color: #ff6a00;
+}
+
+/*Content and Links styling*/
+
+.content {
+    margin: 30px;
+}
+
+.content a {
+    text-decoration: none;
+    color: #F00;
+}
+
+.content a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/*Footer and CopyWrite Styles*/
+
+footer {
+    margin: 30px;
+}
